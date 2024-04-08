@@ -1,0 +1,14 @@
+.menu{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    /* gap: 10px; */
+    height: 120px;
+    background-color: #FFFFFF;
+    font-size: 60px;
+}
+.icon{
+    padding: 5px;
+    height: 120px;
+    box-sizing: border-box; 
+}

@@ -1,0 +1,13 @@
+.Tiles{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 32px;
+    height: 100%;
+}
+.tile{
+    background-color: #E8ECF366;
+    border: 1px ;
+    border-radius: 32px;
+    backdrop-filter: blur(22px);
+    box-shadow: inset 0 0 0 1px #8893a9;
+}

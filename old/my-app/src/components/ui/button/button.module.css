@@ -1,0 +1,14 @@
+.button{
+    height: 80px;
+    width: 80px;
+    background-color: #E6E6E6;
+    border-radius: 30px;
+    padding: 4px;
+    box-sizing: border-box;
+    
+    border: none;
+}
+
+.icon {
+    height: 100%;
+}

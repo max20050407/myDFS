@@ -1,0 +1,11 @@
+.menu {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    height: 100vh;
+    color:#FFFFFF;
+    font-size: 40px;
+    text-align: center;
+    background: linear-gradient(#7CA9CA 0, #6688CA 39%, #434A8A 79%, #212C67 100%);
+}

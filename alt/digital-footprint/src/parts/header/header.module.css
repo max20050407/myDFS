@@ -1,0 +1,25 @@
+.Header{
+    display: grid;
+    grid-template-columns: 32px 1fr 32px 1fr 32px 1fr 32px;
+    background-color: #FFCC33;
+    height: 64px;
+    width: 100vw;
+    align-items: center;
+}
+.linkB{
+    grid-column: 2/3;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 64px;
+}
+.logo{
+    padding: 8px;
+    height: 48px;
+}
+.input{
+    grid-column: 6/7;
+    padding: 8px;
+    height: 28px;
+    border: 0px #00000000 solid;
+    border-radius: 100px;
+}
