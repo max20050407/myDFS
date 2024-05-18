@@ -1,0 +1,52 @@
+.PlateU{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.left{
+    width: 45vw;
+    display: flex;
+    flex-direction: column;
+}
+.input{
+    width: 100%;
+    height: 6vh;
+    font-size: 2vh;
+    border-radius: 4vh;
+    border-color: #00000000;
+    font-weight: 500;
+    color: #808080;
+}
+.right{
+    width: 45vw;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.fio{
+    width: 30vw;
+    font-size: 4vh;
+    font-weight: 500;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+.ava{
+    width: 15vw;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+}
+.disT{
+    width: 45vw;
+    font-size: 4vh;
+    font-weight: 500;
+}
+.dis{
+    width: 45vw;
+    font-size: 2vh;
+    font-weight: 400;
+}
