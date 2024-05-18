@@ -8,14 +8,12 @@ import SfeduLogo from '../img/wSfeduLogo.svg'
 
 export function Header(){
     return(
-        <div className={styles.Header}>
-            <div className={styles.content}>
-                <img src={ProLogo} className={styles.logo}/>
-                <div className={styles.loz}>Это ваше будующее!</div>
-                <img src={DFLogo} className={styles.logo} />
-                <div className={styles.loz}>Удобство, простота, надёжность!</div>
-                <img src={SfeduLogo} className={styles.logo}/>
-            </div>
+        <div className={styles.header}>
+            <img src={ProLogo} className={styles.logo}/>
+            <img src={Loz1} className={styles.logo}/>
+            <img src={DFLogo} className={styles.logo}/>
+            <img src={Loz2} className={styles.logo}/>
+            <img src={SfeduLogo} className={styles.logo}/>
         </div>
     )
 }
